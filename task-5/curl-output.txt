@@ -1,0 +1,2 @@
+curl 65.109.137.203:30827
+{"env":"staging","http_port":"80","string":"Welcome to DevOps Course!"}

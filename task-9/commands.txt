@@ -1,0 +1,11 @@
+kubectl expose deployment frontend-app --type=NodePort --port=80 --target-port=80 -n exam-m-fayziev
+service/frontend-app exposed
+
+
+kubectl get svc frontend-app
+NAME           TYPE       CLUSTER-IP     EXTERNAL-IP   PORT(S)        AGE
+frontend-app   NodePort   10.233.24.73   <none>        80:32597/TCP   19s
+
+
+curl 65.109.137.203:32597
+{"message":"Welcome to your Kubernetes Exam!"}

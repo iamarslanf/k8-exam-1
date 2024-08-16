@@ -1,0 +1,2 @@
+kubectl apply -f task-10/info.yaml -n exam-m-fayziev
+configmap/info created

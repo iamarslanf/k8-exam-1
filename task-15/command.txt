@@ -1,0 +1,2 @@
+kubectl scale deployment node-app --replicas=3 -n exam-m-fayziev
+deployment.apps/node-app scaled

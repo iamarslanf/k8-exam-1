@@ -1,0 +1,2 @@
+kubectl create secret generic database --from-literal=KEY=DB_URI --from-literal=VALUE=postgres://admin:supersecret@10.10.10.1:5432/exam-db -n exam-m-fayziev
+secret/database created

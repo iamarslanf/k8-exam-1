@@ -1,0 +1,2 @@
+kubectl expose deployment flask-app --type=NodePort --port=5000 --target-port 5000
+service/flask-app exposed

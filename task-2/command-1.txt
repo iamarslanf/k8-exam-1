@@ -1,0 +1,1 @@
+kubectl run nginx1 --image=nginx --labels="project=practice,author=muxammadkarim"

@@ -1,0 +1,3 @@
+NAME     READY   STATUS    RESTARTS   AGE     IP               NODE    NOMINATED NODE   READINESS GATES
+nginx1   1/1     Running   0          7m30s   10.233.75.1      node2   <none>           <none>
+nginx2   1/1     Running   0          114s    10.233.102.139   node1   <none>           <none>

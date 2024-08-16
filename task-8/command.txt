@@ -1,0 +1,1 @@
+kubectl apply -f task-8/frontend-app.yaml -n exam-m-fayziev

@@ -1,0 +1,2 @@
+kubectl expose deployment node-app --type=NodePort --port 80 --target-port 80 -n exam-m-fayziev
+service/node-app exposed

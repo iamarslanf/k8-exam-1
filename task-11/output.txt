@@ -1,0 +1,3 @@
+kubectl get secret -n exam-m-fayziev
+NAME       TYPE     DATA   AGE
+database   Opaque   2      108s

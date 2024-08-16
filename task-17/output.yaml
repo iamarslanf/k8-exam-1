@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: Endpoints
+metadata:
+  creationTimestamp: "2024-08-16T12:28:33Z"
+  labels:
+    app: node-app
+  name: node-app
+  namespace: exam-m-fayziev
+  resourceVersion: "7860468"
+  uid: 8e4e4578-ff75-46bf-a5cb-1a7c0ba52e4e
+subsets:
+- notReadyAddresses:
+  - ip: 10.233.71.17
+    nodeName: node3
+    targetRef:
+      kind: Pod
+      name: node-app-7b88c7dc7-kmbv4
+      namespace: exam-m-fayziev
+      uid: 95743b47-de60-44d4-af0e-f88e01c66411
+  - ip: 10.233.74.78
+    nodeName: node4
+    targetRef:
+      kind: Pod
+      name: node-app-7b88c7dc7-vdzt9
+      namespace: exam-m-fayziev
+      uid: 56455591-96a2-423a-a06a-ae90019ccdb1
+  - ip: 10.233.97.175
+    nodeName: node5
+    targetRef:
+      kind: Pod
+      name: node-app-7b88c7dc7-llnxs
+      namespace: exam-m-fayziev
+      uid: bc83a986-1cf3-4420-8069-ebd5fe371ea2
+  ports:
+  - port: 80
+    protocol: TCP

@@ -1,0 +1,3 @@
+kubectl get endpointslices             
+
+node-app-v5vsc       IPv4          80      10.233.71.17,10.233.97.175,10.233.74.78   10m

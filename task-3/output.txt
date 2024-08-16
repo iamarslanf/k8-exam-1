@@ -1,0 +1,17 @@
+NAMESPACE        NAME     READY   STATUS    RESTARTS   AGE
+exam-davron      nginx1   1/1     Running   0          43h
+exam-davron      nginx2   1/1     Running   0          43h
+exam-doston      nginx1   1/1     Running   0          25h
+exam-doston      nginx2   1/1     Running   0          25h
+exam-fazliddin   nginx1   1/1     Running   0          3h3m
+exam-fazliddin   nginx2   1/1     Running   0          3h4m
+exam-kodirovr    nginx1   1/1     Running   0          43h
+exam-kodirovr    nginx2   1/1     Running   0          43h
+exam-m-fayziev   nginx1   1/1     Running   0          10m
+exam-m-fayziev   nginx2   1/1     Running   0          5m22s
+exam-maxmudov    nginx1   1/1     Running   0          42h
+exam-maxmudov    nginx2   1/1     Running   0          42h
+exam-xotam       nginx1   1/1     Running   0          43h
+exam-xotam       nginx2   1/1     Running   0          43h
+exam-zvakhobov   nginx1   1/1     Running   0          42h
+exam-zvakhobov   nginx2   1/1     Running   0          42h

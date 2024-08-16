@@ -1,0 +1,11 @@
+apiVersion: v1
+data:
+  DB_URI: cG9zdGdyZXM6Ly9hZG1pbjpzdXBlcnNlY3JldEAxMC4xMC4xMC4xOjU0MzIvZXhhbS1kYg==
+kind: Secret
+metadata:
+  creationTimestamp: "2024-08-16T10:30:30Z"
+  name: exam-database
+  namespace: exam-m-fayziev
+  resourceVersion: "7816398"
+  uid: 2d9f26fc-92ac-4ad3-9ded-d0ae73f008c8
+type: Opaque

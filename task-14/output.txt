@@ -1,0 +1,3 @@
+kubectl get ingress
+NAME       CLASS    HOSTS                    ADDRESS   PORTS   AGE
+node-app   <none>   mfayziev.nvrbckdown.uz             80      19s
